@@ -1,0 +1,125 @@
+ *{
+    background-color: rgb(255, 251, 251);
+
+
+   }
+
+
+titulo{
+color: rgb(152, 204, 250);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 90px;
+position: absolute;
+top: 290px;
+left: 200px;
+float: inline-end 2s; 
+}
+
+
+.image{
+border-radius: 80px;
+position: absolute;
+left: 1000px;
+top: 150px;
+}
+
+
+.fundo{
+position: absolute;
+left: 1560px;
+top: 200px;
+}
+
+
+.fundo2{
+    position: absolute;
+    top: 200px;
+    left: 908px;
+}
+
+
+.botao{
+color: rgb(255, 254, 254);
+background-color: rgb(96, 122, 236);
+border-color: transparent;
+border-radius: 20px;
+position: absolute;
+top: 710px;
+left: 300px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+}
+
+
+.dente{
+width: 90px;
+height: 90px;
+position: absolute;
+left: 100px;
+top: 290px;
+}
+
+
+.apresentaçao{
+position: absolute;
+top: 490px;
+left: 200px;
+color: rgb(88, 180, 255);
+font-size: 23px;
+font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+
+.saude{
+position: absolute;
+top: 410px;
+left: 420px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.nav-item{
+ font-size: 25px;
+}
+
+
+ .insta{
+ width: 50px;
+ height: 50px;
+ position: absolute;
+top: 10px;
+ left: 1670px;
+}
+
+
+.face{
+ width: 50px;
+height: 50px;
+ position: absolute;
+top: 10px;
+ left: 1600px;
+}
+
+ 
+ /* parte do titulo flutuante  */
+ .titulo{
+ animation: float 7s ease-in-out infinite;
+color: rgb(79, 170, 255);
+font-size: 90px;
+font-family: Arial, Helvetica, sans-serif;
+position: absolute;
+top: 290px;
+left: 200px;
+ }
+      
+ @keyframes float {
+ 0%, 100% {
+ transform: translateY(0);
+ }
+ 50% {
+ transform: translateY(-50px);
+ }
+}
+
+
+
